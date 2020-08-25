@@ -1,0 +1,13 @@
+psutil
+wave
+pyaudio
+pyscreenshot
+opencv-python
+netifaces
+getmac
+argparse
+uuid
+pyTelegramBotAPI
+telebot
+requests
+pynput
