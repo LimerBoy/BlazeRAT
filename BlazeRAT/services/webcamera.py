@@ -98,6 +98,7 @@ def _Stop() -> bytes:
 def Handle(callback: dict, bot) -> None:
     text = callback.data
     chatid = callback.from_user.id
+    device = 0
     # Detect camera device
     if "_" in text:
         device = int(text.split('_')[-1])
