@@ -27,7 +27,7 @@
  
  ``` bash
  git clone https://github.com/LimerBoy/BlazeRAT
- cd BlazeRAT
+ cd BlazeRAT/BlazeRAT/
  pip3 install --user -r requirements.txt
  ```
  ## :gear: Initialization:
