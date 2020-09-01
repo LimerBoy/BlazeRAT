@@ -12,6 +12,8 @@ You bear the full responsibility of your actions and acknowledge that this softw
 This software's main purpose is NOT to be used maliciously, or on any system that you do not own, or have the right to use.
 By using this software, you automatically agree to the above.
 
+# :computer: Video:
+[![F](Images/youtube.JPG)](https://youtu.be/brFUstzb8O4 "YouTube: BlazeRAT - Functions.")
   
 ## :herb: Functions:
 - [x] Desktop Screenshot
