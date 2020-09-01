@@ -3,7 +3,7 @@
 
 # Import modules
 import telebot # pip3 install pyTelegramBotAPI
-from time import time, ctime
+from time import time, ctime, sleep
 # Import helpers
 import core.logger as Logger
 import core.messages as Messages
@@ -507,5 +507,17 @@ def KeyboardActions(callback):
 
 """ Run telegram bot """
 def Run():
-    print("[%] Telegram Bot starting...")
-    bot.polling(none_stop=True)
+    print("[~] Telegram Bot starting...")
+    try:
+        print("[?] Started as @" + bot.get_me().username)
+    except Exception as error:
+        exit(f"[!] Failed connect to telegram bot\n{error}")
+    else:
+        while True:
+            try:
+                bot.polling(none_stop=True)
+            except Exception as error:
+                print(error)
+                sleep(2)
+                
+
